@@ -1,0 +1,415 @@
+/*300 LIGHT*/
+
+@font-face {
+    font-family: "Gotham-Light";
+    src: url("/fonts/gotham/GothamLight.ttf");
+}
+
+
+/*400 BOOK*/
+
+@font-face {
+    font-family: "Gotham-Book";
+    src: url("/fonts/gotham/GothamBook.ttf");
+}
+
+
+/* 500 MEDIUM */
+
+@font-face {
+    font-family: "Gotham-Medium";
+    src: url("/fonts/gotham/GothamMedium.ttf");
+}
+
+
+/* 700 BOLD */
+
+@font-face {
+    font-family: "Gotham-Bold";
+    src: url("/fonts/gotham/GothamBold.ttf");
+}
+
+
+/* 900 BLACK */
+
+@font-face {
+    font-family: "Gotham-Black";
+    src: url("/fonts/gotham/GothamBlack.otf");
+}
+
+.font-12-gotham-light {
+    font-family: "Gotham-Light";
+    font-size: 12px;
+}
+
+.font-12-gotham-book {
+    font-family: "Gotham-Book";
+    font-size: 12px;
+}
+
+.font-12-gotham-bold {
+    font-family: "Gotham-Bold";
+    font-size: 12px;
+}
+
+.font-14-gotham-light {
+    font-family: "Gotham-Light";
+    font-size: 14px;
+}
+
+.font-14-gotham-book {
+    font-family: "Gotham-Book";
+    font-size: 14px;
+}
+
+.font-14-gotham-bold {
+    font-family: "Gotham-Bold";
+    font-size: 14px;
+}
+
+.font-16-gotham-book {
+    font-family: "Gotham-Book";
+    font-size: 16px;
+}
+
+.font-16-gotham-bold {
+    font-family: "Gotham-Bold";
+    font-size: 16px;
+}
+
+.font-16-gotham-black {
+    font-family: "Gotham-Black";
+    font-size: 16px;
+}
+
+.font-18-gotham-book {
+    font-family: "Gotham-Book";
+    font-size: 18px;
+}
+
+.font-18-gotham-bold {
+    font-family: "Gotham-Bold";
+    font-size: 18px;
+}
+
+.font-20-gotham-book {
+    font-family: "Gotham-Book";
+    font-size: 20px;
+}
+
+.font-20-gotham-bold {
+    font-family: "Gotham-Bold";
+    font-size: 20px;
+}
+
+.font-24-gotham-thin {
+    font-family: "Gotham-Thin";
+    font-size: 24px;
+}
+
+.font-24-gotham-book {
+    font-family: "Gotham-Book";
+    font-size: 24px;
+}
+
+.font-24-gotham-medium {
+    font-family: "Gotham-Medium";
+    font-size: 24px;
+}
+
+.font-24-gotham-bold {
+    font-family: "Gotham-Bold";
+    font-size: 24px;
+}
+
+.font-32-gotham-bold {
+    font-family: "Gotham-Bold";
+    font-size: 32px;
+}
+
+.font-32-gotham-black {
+    font-family: "Gotham-Black";
+    font-size: 32px;
+}
+
+.font-40-gotham-black {
+    font-family: "Gotham-Black";
+    font-size: 40px;
+}
+
+.font-46-gotham-black {
+    font-family: "Gotham-Black";
+    font-size: 46px;
+}
+
+.font-48-gotham-black {
+    font-family: "Gotham-Black";
+    font-size: 48px;
+}
+
+.font-48-gotham-bold {
+    font-family: "Gotham-Bold";
+    font-size: 48px;
+}
+
+.lh-120 {
+    line-height: 120%;
+}
+
+.lh-230 {
+    line-height: 230%;
+}
+
+.text-neutral {
+    color: #D9DBE1;
+}
+
+.text-grey {
+    color: #8F8F90;
+}
+
+.text {
+    color: #686868;
+}
+
+@media (min-width: 1199.99px) and (max-width: 1400.98px) {
+    .font-18-gotham-book {
+        font-size: 16px;
+    }
+    .font-32-gotham-bold {
+        font-size: 24px;
+    }
+    .font-48-gotham-black {
+        font-size: 42px;
+    }
+}
+
+@media (min-width: 991.99px) and (max-width: 1199.98px) {
+    .font-12-gotham-light {
+        font-size: 10px;
+    }
+    .font-14-gotham-book {
+        font-size: 12px;
+    }
+    .font-16-gotham-book {
+        font-size: 14px;
+    }
+    .font-16-gotham-bold {
+        font-size: 16px;
+    }
+    .font-18-gotham-bold {
+        font-size: 14px;
+    }
+    .font-18-gotham-book {
+        font-size: 14px;
+    }
+    .font-20-gotham-book {
+        font-size: 16px;
+    }
+    .font-20-gotham-bold {
+        font-size: 14px;
+    }
+    .font-24-gotham-book {
+        font-size: 18px;
+    }
+    .font-24-gotham-bold {
+        font-size: 18px;
+    }
+    .font-32-gotham-bold {
+        font-size: 20px;
+    }
+    .font-48-gotham-black {
+        font-size: 34px;
+    }
+    .font-48-gotham-bold {
+        font-size: 36px;
+    }
+}
+
+@media (min-width: 767.99px) and (max-width: 991.98px) {
+    .font-12-gotham-light {
+        font-size: 10px;
+    }
+    .font-14-gotham-book {
+        font-size: 12px;
+    }
+    .font-14-gotham-bold {
+        font-size: 12px;
+    }
+    .font-16-gotham-book {
+        font-size: 12px;
+    }
+    .font-16-gotham-bold {
+        font-size: 12px !important;
+    }
+    .font-18-gotham-book {
+        font-size: 14px;
+    }
+    .font-18-gotham-bold {
+        font-size: 14px;
+    }
+    .font-20-gotham-book {
+        font-size: 16px;
+    }
+    .font-20-gotham-bold {
+        font-size: 16px;
+    }
+    .font-24-gotham-book {
+        font-size: 20px;
+    }
+    .font-24-gotham-medium {
+        font-size: 16px;
+    }
+    .font-24-gotham-bold {
+        font-size: 16px;
+    }
+    .font-32-gotham-bold {
+        font-size: 18px;
+    }
+    .font-32-gotham-black {
+        font-size: 26px;
+    }
+    .font-48-gotham-black {
+        font-size: 26px;
+    }
+    .accordion-button.product:not(.collapsed),
+    .accordion-button.product:focus,
+    .accordion-button.product {
+        font-size: 16px !important;
+    }
+    .font-48-gotham-bold {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 575.99px) and (max-width: 767.98px) {
+    .font-12-gotham-light {
+        font-size: 10px;
+    }
+    .font-14-gotham-book {
+        font-size: 12px;
+    }
+    .font-16-gotham-book {
+        font-size: 12px;
+    }
+    .font-16-gotham-bold {
+        font-size: 14px;
+    }
+    .font-18-gotham-bold {
+        font-size: 14px;
+    }
+    .font-20-gotham-book {
+        font-size: 14px;
+    }
+    .font-20-gotham-bold {
+        font-size: 14px;
+    }
+    .font-24-gotham-book {
+        font-size: 18px;
+    }
+    .font-24-gotham-bold {
+        font-size: 14px;
+    }
+    .font-32-gotham-bold {
+        font-size: 22px;
+    }
+    .font-32-gotham-black {
+        font-size: 18px;
+    }
+    .font-48-gotham-black {
+        font-size: 38px;
+    }
+    .font-48-gotham-bold {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .font-12-gotham-light {
+        font-size: 10px;
+    }
+    .font-14-gotham-light {
+        font-size: 12px;
+    }
+    .font-14-gotham-book,
+    .font-14-gotham-book.review,
+    .font-14-gotham-book.faq,
+    .font-14-gotham-book.footer,
+    .font-14-gotham-book.profile,
+    .font-14-gotham-book.order {
+        font-size: 12px !important;
+    }
+    .font-14-gotham-bold {
+        font-size: 12px;
+    }
+    .font-16-gotham-book {
+        font-size: 12px;
+    }
+    .font-16-gotham-bold,
+    .font-16-gotham-bold.order {
+        font-size: 14px !important;
+    }
+    .font-18-gotham-book,
+    .font-14-gotham-book,
+    .font-16-gotham-bold.buyer {
+        font-size: 14px !important;
+    }
+    .font-18-gotham-bold {
+        font-size: 14px;
+    }
+    .font-20-gotham-book {
+        font-size: 14px;
+    }
+    .font-20-gotham-bold {
+        font-size: 16px;
+    }
+    .font-24-gotham-book {
+        font-size: 16px;
+    }
+    .font-24-gotham-medium {
+        font-size: 16px;
+    }
+    .font-24-gotham-bold {
+        font-size: 16px;
+    }
+    .font-32-gotham-bold {
+        font-size: 16px;
+    }
+    .font-32-gotham-black {
+        font-size: 16px;
+    }
+    .font-40-gotham-black {
+        font-size: 24px;
+    }
+    .font-46-gotham-black {
+        font-size: 24px;
+    }
+    .font-48-gotham-black {
+        font-size: 28px;
+    }
+    .font-48-gotham-bold {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 414.99px) {
+    .font-12-gotham-light {
+        font-size: 8px;
+    }
+    .font-14-gotham-bold.mb-0,
+    .font-14-gotham-book.text-grey,
+    .font-14-gotham-book {
+        font-size: 10px !important;
+    }
+    .font-16-gotham-book,
+    .font-16-gotham-bold,
+    .font-14-gotham-book.alert {
+        font-size: 12px !important;
+    }
+    .font-20-gotham-bold {
+        font-size: 14px;
+    }
+    .btn.disabled.font-14-gotham-bold {
+        font-size: 10px;
+    }
+}
